@@ -1,6 +1,6 @@
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public float vInput;
     public float jumpForce;
     public Rigidbody playerRB;
-
+    
     // Update is called once per frame
     void Update()
     {
