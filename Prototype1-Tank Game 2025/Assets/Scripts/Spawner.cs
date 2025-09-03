@@ -9,6 +9,8 @@
 
     public Quaternion spawnRotation; // Rotation for spawned prefab
 
+    public float destroyDelay = 20.0f; // Time after which the spawned prefab will be destroyed
+
     void Start()
     {
         StartCoroutine(SpawnRoutine());
@@ -18,8 +20,9 @@
     {
         while (true) // Continuous spawning
         {
-            Instantiate(prefabToSpawn, transform.position, spawnRotation);
+            GameObject spawnedObject = Instantiate(prefabToSpawn, transform.position, spawnRotation);
             yield return new WaitForSeconds(spawnInterval);
+            Destroy(spawnedObject, destroyDelay); // Destroy after delay
         }
     }
 }
