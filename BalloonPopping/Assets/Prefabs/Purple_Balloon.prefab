@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8054543885377935263}
+  - component: {fileID: 6765089218319614325}
   - component: {fileID: 958346349380388660}
   - component: {fileID: 6639615915035424255}
   - component: {fileID: -6658416211452492806}
-  - component: {fileID: 6765089218319614325}
   m_Layer: 0
   m_Name: Purple_Balloon
   m_TagString: Untagged
@@ -38,6 +38,29 @@ Transform:
   - {fileID: 7717061303358161041}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &6765089218319614325
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5231572773113944999}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.178659
+  m_Height: 5.154059
+  m_Direction: 1
+  m_Center: {x: -0.1022005, y: 2.07703, z: 0.1156948}
 --- !u!54 &958346349380388660
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -90,33 +113,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85a84e8147f7e8843b181f03077d2a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickToPop: 3
+  clickToPop: 5
   scaleToIncrease: 0.1
   scoreToGive: 0
   popEffect: {fileID: 0}
---- !u!136 &6765089218319614325
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5231572773113944999}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.178659
-  m_Height: 5.154059
-  m_Direction: 1
-  m_Center: {x: -0.1022005, y: 2.07703, z: 0.1156948}
 --- !u!1 &5232708738497190347
 GameObject:
   m_ObjectHideFlags: 0
