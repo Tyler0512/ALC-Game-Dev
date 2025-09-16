@@ -15,7 +15,7 @@ public class Balloon : MonoBehaviour
     void Start()
     {
         //Reference ScoreManager Component*
-        //scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
+        scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
     }
 
     // Update is called once per frame
@@ -29,11 +29,11 @@ public class Balloon : MonoBehaviour
         if (clickToPop == 0)
         {
             
-            //scoreManager.IncreaseScoreText(scoreToGive);
+            scoreManager.IncreaseScoreText(scoreToGive); // Increase the score by the scoreToGive amount
             
-            //Instantiate(popEffect, transform.position, transform.rotation);
+            Instantiate(popEffect, transform.position, transform.rotation); // Create the pop effect
            
-            Destroy(gameObject);
+            Destroy(gameObject); // Destroy the balloon
         }
     }
 }

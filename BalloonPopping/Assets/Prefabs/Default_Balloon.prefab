@@ -373,5 +373,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickToPop: 3
   scaleToIncrease: 0.1
-  scoreToGive: 0
-  popEffect: {fileID: 0}
+  scoreToGive: 100
+  popEffect: {fileID: 1192590629408057208, guid: 3c342942ad0004d4580b2e17290f4887, type: 3}

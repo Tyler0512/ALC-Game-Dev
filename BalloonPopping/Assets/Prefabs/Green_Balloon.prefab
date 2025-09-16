@@ -287,8 +287,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickToPop: 2
   scaleToIncrease: 0.1
-  scoreToGive: 0
-  popEffect: {fileID: 0}
+  scoreToGive: 50
+  popEffect: {fileID: 5859752113075897745, guid: 97ee89f07ac6a5640b268aaee310fd1c, type: 3}
 --- !u!1 &7791928076218279843
 GameObject:
   m_ObjectHideFlags: 0

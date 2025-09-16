@@ -45,5 +45,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   balloonPrefab: {fileID: 2791300504769287147, guid: 5c4529474b434eb428773f9ac3af6bc2, type: 3}
-  spawnInterval: 2
+  spawnInterval: 1.5
   spawnRange: 13
