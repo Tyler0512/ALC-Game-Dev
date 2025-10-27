@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0325a14449f46734b8a6f7d75398cf79
+guid: e01e3d3e059a777429efc22f2cf2fefa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2189510010676529607
-    second: Portal_0
+      213: 5280306195544767046
+    second: ParkourPlatform_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Portal_0
+      name: ParkourPlatform_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 30
-        height: 32
+        x: 0
+        y: 3
+        width: 16
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c9498211c3b26e10800000000000000
-      internalID: 2189510010676529607
+      spriteID: 64a7db2328a674940800000000000000
+      internalID: 5280306195544767046
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Portal_0: 2189510010676529607
+      ParkourPlatform_0: 5280306195544767046
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
